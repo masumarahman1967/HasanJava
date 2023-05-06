@@ -67,7 +67,9 @@ public class Main {
         tk.setData2(2,3);
         //or
         tk.setData(4,5);
-        System.out.println(tk.x);
+        System.out.println(tk.x);//will take current value
         System.out.println(tk.y);
+        System.out.println(new ThisKeyword(2,5));
+        System.out.println(tk);
     }
 }
